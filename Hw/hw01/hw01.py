@@ -83,10 +83,11 @@ def c():
     return False
 
 def t():
-    print(1, end='\n')
+    #EOF
+    raise Exception("")
 
 def f():
-    return None
+    return 1
 
 def hailstone(n):
     """Print the hailstone sequence starting at n and return its
